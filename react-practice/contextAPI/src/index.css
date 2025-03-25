@@ -1,0 +1,12 @@
+.box {
+  color: black;
+  padding: 1rem;
+  border: 3px solid red;
+  min-width: 400px;
+  max-width: 550px;
+  margin: auto;
+  font-size: 2rem;
+}
+.box div {
+  margin-bottom: 1.5rem;
+}

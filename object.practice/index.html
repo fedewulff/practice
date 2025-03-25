@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="jsfile.js" defer></script>
+    <title>Object practice</title>
+  </head>
+  <body>
+    <label
+      >Password:
+      <input type="password" aria-describedby="password-requirements" />
+    </label>
+
+    <!-- Meaningful text + ARIA! -->
+    <span id="password-requirements">Password must be at least 10 characters long.</span>
+
+    <!-- Example 1 -->
+    <button type="button">
+      <span class="material-icons">add</span>
+      Add Book
+    </button>
+
+    <!-- Example 2 -->
+    <button type="button">
+      <span class="material-icons" aria-hidden="true">add</span>
+      Add Book
+    </button>
+  </body>
+</html>

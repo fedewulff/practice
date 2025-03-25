@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: lightcoral;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: fit-content;
+  padding: 1rem;
+  margin: auto;
+}
+
+input {
+  width: 100%;
+  background: white;
+  border: none;
+  height: 2rem;
+  border-radius: 0.5rem;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+button {
+  padding: 0.5rem;
+  background: white;
+}

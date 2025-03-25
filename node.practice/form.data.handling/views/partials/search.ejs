@@ -1,0 +1,12 @@
+<% if (locals.users.length>0) {%>
+<ul>
+  <% users.forEach(function(matchedUser) { %>
+  <li>
+    ID: <%= matchedUser.id %>, Name: <%= matchedUser.firstName %> <%= matchedUser.lastName %>,
+    E-mail: <%= matchedUser.email %>, Age: <%= matchedUser.age %>, Bio: <%= matchedUser.bio %>
+  </li>
+  <% }); %>
+</ul>
+<% } else { %>
+<p><%= locals.noMatch %></p>
+<% } %>
